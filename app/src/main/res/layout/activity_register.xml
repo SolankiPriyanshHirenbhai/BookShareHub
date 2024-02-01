@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/rbtnBack"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="-160dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_back"
+        android:contentDescription="@string/btnBack" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_logo"
+        android:contentDescription="@string/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/newAccount"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/redtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="50sp"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:background="#cccc"
+        android:hint="@string/email"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="8dp"/>
+
+    <EditText
+        android:id="@+id/redtPassword"
+        android:drawableStart="@drawable/ic_lock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="50dp"
+        android:background="#ccc"
+        android:hint="@string/password"
+        android:drawablePadding="8dp"/>
+
+    <EditText
+        android:id="@+id/redtCPassword"
+        android:drawableStart="@drawable/ic_lock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="50dp"
+        android:background="#ccc"
+        android:hint="@string/confirmPassword"
+        android:drawablePadding="8dp"/>
+
+
+    <Button
+        android:id="@+id/rbtnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="50dp"
+        android:textSize="24sp"
+        android:text="@string/signup"/>
+
+    <TextView
+        android:id="@+id/rtvSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alreadyAccount"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:layout_marginEnd="30dp"
+        android:layout_gravity="bottom|right"/>
+
+</LinearLayout>
