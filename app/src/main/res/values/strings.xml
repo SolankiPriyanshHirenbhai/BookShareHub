@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Book Share Hub</string>
+    <string name="welcome_message">Welcome to Book Share Hub</string>
+    <string name="login">LogIn</string>
+    <string name="signup">Sign Up</string>
+    <string name="skip">Continue without LogIn</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="noAccount">Not Have Account?<b> SignUp</b></string>
+    <string name="alreadyAccount">Already Have An Account? <b>SignIn</b></string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="newAccount">Create New Account</string>
+    <string name="logout">LOGOUT</string>
+    <string name="btnBack">btnBack</string>
+    <string name="logo">Logo</string>
 </resources>
